@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'newsfeeds',
     'comments',
     'django_filters',
+    'likes',
 ]
 
 REST_FRAMEWORK = {
