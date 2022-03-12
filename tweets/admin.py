@@ -5,7 +5,6 @@ from tweets.models import Tweet
 @admin.register(Tweet)
 class TweetAdmin(admin.ModelAdmin):
     date_hierarchy = 'created_at'
-    # 白名单模式
     list_display = (
         'created_at',
         'user',

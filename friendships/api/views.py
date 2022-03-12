@@ -78,6 +78,3 @@ class FriendshipViewSet(viewsets.GenericViewSet):
             to_user=pk,
         ).delete()
         return Response({'success': True, 'deleted': deleted})
-
-    def list(self, request):
-        return Response({'message':'this is friendships home page'})
